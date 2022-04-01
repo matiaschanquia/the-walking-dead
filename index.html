@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Walking Dead</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+
+<body>
+    <header>
+        <div>
+            <img src="img/logo-header01.png" alt="logo The Walking Dead">
+            <ul class="nav-superior">
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#resumen">Resumen</a></li>
+                <li><a href="#reparto">Reparto</a></li>
+                <li><a href="#temporadas">Temporadas</a></li>
+                <li><a href="">Contacto</a></li>
+            </ul>
+            <div class="boton-nav" id="abrir-nav" onclick="abrirNav()">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+    </header>
+    <div class="nav-lateral" id="nav-lateral">
+        <ul>
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#resumen">Resumen</a></li>
+            <li><a href="#reparto">Reparto</a></li>
+            <li><a href="#temporadas">Temporadas</a></li>
+            <li><a href="">Contacto</a></li>
+        </ul>
+        <div class="cruz" id="cerrar-nav" onclick="cerrarNav()">
+            <span></span><span></span>
+        </div>
+    </div>
+    <div class="home">
+        <h1>La página fandom de la drama más inquietante de todas.</h1>
+    </div>
+    <section class="section1" id="resumen">
+        <h2>Resumen</h2>
+        <p>The Walking Dead tiene lugar después del inicio de un apocalipsis zombi mundial. Los zombis, coloquialmente
+            llamados «caminantes», se arrastran hacia los humanos vivos y otras criaturas para comerlos; se sienten
+            atraídos por el ruido, como los disparos, y por diferentes aromas, por ejemplo humanos. Aunque inicialmente
+            parece que solo los humanos que son mordidos o arañados por los caminantes pueden convertirse en otros
+            caminantes, se revela al principio de la serie que todos los humanos vivos portan el patógeno responsable de
+            la mutación. La mutación se activa después de la muerte del huésped del patógeno, y la única forma de matar
+            permanentemente a un caminante es dañar su cerebro o destruir el cuerpo, como incinerándolo.</p>
+        <img src="img/section1.jpg" alt="the Walking Dead">
+    </section>
+    <section class="section2" id="reparto">
+        <h2>Reparto principal</h2>
+        <div class="personajes">
+            <div class="persona">
+                <div class="persona__foto">
+                    <img src="img/personajes/rickgrimes.webp" alt="rick grimes">
+                </div>
+                <div class="persona__texto">
+                    <h3>Actor: Andrew Lincoln</h3>
+                    <h3>Personaje: Rick Grimes</h3>
+                </div>
+            </div>
+            <div class="persona">
+                <div class="persona__foto">
+                    <img src="img/personajes/daryl.jpg" alt="daryl dixon">
+                </div>
+                <div class="persona__texto">
+                    <h3>Actor: Norman Reedus</h3>
+                    <h3>Personaje: Daryl Dixon</h3>
+                </div>
+            </div>
+            <div class="persona">
+                <div class="persona__foto">
+                    <img src="img/personajes/negan.webp" alt="Negan">
+                </div>
+                <div class="persona__texto">
+                    <h3>Actor: Jeffrey Morgan</h3>
+                    <h3>Personaje: Negan</h3>
+                </div>
+            </div>
+            <div class="persona">
+                <div class="persona__foto">
+                    <img src="img/personajes/carl.webp" alt="Carl">
+                </div>
+                <div class="persona__texto">
+                    <h3>Actor: Chandler Riggs</h3>
+                    <h3>Personaje: Carl Grimes</h3>
+                </div>
+            </div>
+            <div class="persona">
+                <div class="persona__foto">
+                    <img src="img/personajes/maggie.jpg" alt="Maggie">
+                </div>
+                <div class="persona__texto">
+                    <h3>Actriz: Lauren Cohan</h3>
+                    <h3>Personaje: Maggie Greene</h3>
+                </div>
+            </div>
+            <div class="persona">
+                <div class="persona__foto">
+                    <img src="img/personajes/carol.webp" alt="Carol">
+                </div>
+                <div class="persona__texto">
+                    <h3>Actriz: Melissa McBride</h3>
+                    <h3>Personaje: Carol</h3>
+                </div>
+            </div>
+            <div class="persona">
+                <div class="persona__foto">
+                    <img src="img/personajes/gleen.webp" alt="Gleen">
+                </div>
+                <div class="persona__texto">
+                    <h3>Actor: Steven Yeun</h3>
+                    <h3>Personaje: Gleen Rhee</h3>
+                </div>
+            </div>
+            <div class="persona">
+                <div class="persona__foto">
+                    <img src="img/personajes/shane.jpg" alt="Shane">
+                </div>
+                <div class="persona__texto">
+                    <h3>Actor: Jon Bernthal</h3>
+                    <h3>Personaje: Shane Walsh</h3>
+                </div>
+            </div>
+            <div class="persona">
+                <div class="persona__foto">
+                    <img src="img/personajes/michonne.jpg" alt="Michonne">
+                </div>
+                <div class="persona__texto">
+                    <h3>Actriz: Danai Gurira</h3>
+                    <h3>Personaje: Michonne</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section3" id="temporadas">
+        <h2>Temporadas</h2>
+        <div class="cards-temporada">
+            <div class="card-temporada">
+                <img src="img/temporadas/temp1.jpg" alt="portada temporada 1">
+                <h3>Temporada 1</h3>
+            </div>
+            <div class="card-temporada">
+                <img src="img/temporadas/temp2.jpg" alt="portada temporada 2">
+                <h3>Temporada 2</h3>
+            </div>
+            <div class="card-temporada">
+                <img src="img/temporadas/temp3.jpg" alt="portada temporada 3">
+                <h3>Temporada 3</h3>
+            </div>
+            <div class="card-temporada">
+                <img src="img/temporadas/temp4.jpg" alt="portada temporada 4">
+                <h3>Temporada 4</h3>
+            </div>
+            <div class="card-temporada">
+                <img src="img/temporadas/temp5.jpg" alt="portada temporada 5">
+                <h3>Temporada 5</h3>
+            </div>
+            <div class="card-temporada">
+                <img src="img/temporadas/temp6.jpg" alt="portada temporada 6">
+                <h3>Temporada 6</h3>
+            </div>
+            <div class="card-temporada">
+                <img src="img/temporadas/temp7.jpg" alt="portada temporada 7">
+                <h3>Temporada 7</h3>
+            </div>
+            <div class="card-temporada">
+                <img src="img/temporadas/temp8.jpg" alt="portada temporada 8">
+                <h3>Temporada 8</h3>
+            </div>
+            <div class="card-temporada">
+                <img src="img/temporadas/temp9.jpg" alt="portada temporada 9">
+                <h3>Temporada 9</h3>
+            </div>
+            <div class="card-temporada">
+                <img src="img/temporadas/temp10.jpg" alt="portada temporada 10">
+                <h3>Temporada 10</h3>
+            </div>
+            <div class="card-temporada">
+                <img src="img/temporadas/temp11.jpg" alt="portada temporada 11">
+                <h3>Temporada 11</h3>
+            </div>
+        </div>
+    </section>
+
+    <script src="js/javascript.js"></script>
+</body>
+
+</html>

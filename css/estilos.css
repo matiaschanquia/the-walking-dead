@@ -392,3 +392,15 @@ header .boton-nav span {
         width: 100%;
     }
 }
+
+
+footer iframe {
+    width: 100%;
+}
+
+footer p {
+    text-align: center;
+    color: white;
+    padding: 15px;
+    background-color: rgb(53, 53, 53);
+}

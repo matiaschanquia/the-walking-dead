@@ -272,25 +272,27 @@ header .boton-nav span {
     overflow: hidden;
     display: flex;
     flex-direction: column;
-    height: 30vw;
+    /* height: 30vw; */
     justify-content: space-between;
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.542);
 }
 
 .personajes .persona .persona__foto {
-    height: 20vw;
+    height: 380px;
     
 }
 
 .personajes .persona .persona__foto img {
     width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 .personajes .persona .persona__texto {
     background-color: #650000;
     text-align: center;
     color: white;
-    height: 80px;
+    height: 60px;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -332,6 +334,8 @@ header .boton-nav span {
 .cards-temporada .card-temporada img {
     position: absolute;
     height: 100%;
+    width: 100%;
+    object-fit: cover;
     z-index: -1;
 }
 
@@ -357,9 +361,6 @@ header .boton-nav span {
     .personajes {
         grid-template-columns: repeat(2, 1fr);
     }
-    .personajes .persona {
-        height: 300px;
-    }
     .personajes .persona .persona__texto h3 {
         font-size: 16px;
     }
@@ -371,9 +372,6 @@ header .boton-nav span {
 @media (max-width: 650px) {
     .personajes {
         grid-template-columns: 1fr;
-    }
-    .personajes .persona {
-        height: 400px;
     }
     .personajes .persona .persona__texto h3 {
         font-size: 14px;
